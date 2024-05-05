@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  webapp:
+    container_name: purp
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    command: sh -c 'npm start'
+    depends_on:
+      - mongo
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/webapp
+    env_file:
+      - .env
+  mongo:
+    image: mongo:latest
+    restart: always
+    ports:
+      - "27017:27017"
