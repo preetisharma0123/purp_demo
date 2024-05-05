@@ -1,0 +1,28 @@
+{
+  "name": "purp_demo",
+  "version": "1.0.0",
+  "description": "Purp Demo Application using NodeJS, React Native and Firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preetisharma0123/purp_demo.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ReactNative",
+    "Purp",
+    "Firebase"
+  ],
+  "author": "Preeti Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/preetisharma0123/purp_demo/issues"
+  },
+  "homepage": "https://github.com/preetisharma0123/purp_demo#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
